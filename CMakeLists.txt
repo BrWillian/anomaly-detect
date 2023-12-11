@@ -8,7 +8,6 @@ include_directories(/usr/include/eigen3)
 add_executable(AnomalyDetector src/main.cpp
         src/AnomalyDetector.cpp
         src/wavelet.cpp
-        src/matrix.cpp
         include/vector.h
 )
 

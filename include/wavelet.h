@@ -5,12 +5,6 @@
 #include <vector>
 #include <stdexcept>
 
-//=============================================================================
-// Decomposition1D and Decomposition1D2D
-// Contain and manage the result of 1D or 2D wavelet decomposition and provide
-// accessors to set/get a specific subband.
-//=============================================================================
-
 template<typename T>
 class Decomposition1D : public std::vector<std::vector<T>> {
 public:
